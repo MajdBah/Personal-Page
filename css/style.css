@@ -1,0 +1,179 @@
+@font-face {
+    font-family: "GE SS Two Light";
+    src: url("./font-face/02f502e5eefeb353e5f83fc5045348dc.eot");
+    /* IE9*/
+    src: url("./font-face/02f502e5eefeb353e5f83fc5045348dc.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./font-face/02f502e5eefeb353e5f83fc5045348dc.woff2") format("woff2"), /* chrome、firefox */
+    url("./font-face/02f502e5eefeb353e5f83fc5045348dc.woff") format("woff"), /* chrome、firefox */
+    url("./font-face/02f502e5eefeb353e5f83fc5045348dc.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("./font-face/02f502e5eefeb353e5f83fc5045348dc.svg#GE SS Two Light") format("svg");
+    /* iOS 4.1- */
+}
+
+body {
+    font-family: "GE SS Two Light", sans-serif !important;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    z-index: 0;
+    position: relative;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #353637;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: solid 4px #32a0c2;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #32a0c2;
+    font-weight: bold;
+}
+
+header li {
+    display: inline;
+    padding: 0px 20px;
+}
+
+#logo {
+    margin: 0;
+    float: right;
+}
+
+header nav {
+    float: left;
+    margin-top: 10px;
+}
+
+#current a {
+    color: #32a0c2 !important;
+    font-weight: bold;
+}
+
+#showcase {
+    min-height: 400px;
+    background: url("../img/bg.jpg") no-repeat center;
+    color: #ffffff;
+    background-size: cover;
+    text-align: center;
+}
+
+#showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+#newsletter {
+    padding: 15px;
+    color: #ffffff;
+    background-color: #353637;
+}
+
+#newsletter h2 {
+    float: right;
+}
+
+#newsletter form {
+    float: left;
+    margin-top: 15px;
+}
+
+#newsletter input[type="email"] {
+    padding: 4px;
+    height: 20px;
+    width: 250px;
+    font-family: "GE SS Two Light", sans-serif !important;
+}
+
+.button {
+    height: 38px;
+    background: #cccccc;
+    padding: 0px 20px;
+    color: #353637;
+    font-family: "GE SS Two Light", sans-serif !important;
+}
+
+#boxes {
+    margin-top: 20px;
+}
+
+.box {
+    width: 30%;
+    float: right;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #32a0c2;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+@media(max-width: 768px) {
+    header,
+    #branding,
+    header h1,
+    header nav,
+    nav li,
+    #newsletter h2,
+    #newsletter form,
+    #boxes,
+    .box {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    header {
+        padding-bottom: 20px;
+    }
+    #showcase h1 {
+        margin-top: 40px;
+    }
+    #newsletter form input[type="email"] {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .button {
+        display: block;
+        width: 100%;
+    }
+    header nav {
+        margin-top: 60px;
+    }
+}
+
+#para {
+    background-color: black;
+    opacity: .6;
+    width: 100%;
+    height: 400px;
+    position: absolute;
+}
